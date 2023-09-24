@@ -1,0 +1,13 @@
+[package]
+name = "woof-pkg"
+description = "Package manager wrapper."
+license = "MPL-2.0"
+homepage = "https://github.com/fox-tools/pkg"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+path = "src/main.rs"
+name = "pkg"
+
+[dependencies]
